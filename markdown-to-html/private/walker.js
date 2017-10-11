@@ -8,10 +8,10 @@ const walk = require('walk');
 const fs = require('fs');
 const path = require('path');
 const makePage = require('./make-page');
-const elfLog = require('isit-code-calvert').elfLog('private-walker');
+const elfLog = require('isit-code-calvertbc').elfLog('private-walker');
 const moment = require('moment');
 
-function walker() {
+function walker() {/home/bcuser/Git/isit320-calvert-2017/Week04-NpmProject
     'use strict';
     elfLog.setLevel(elfLog.logLevelInfo);
 }
