@@ -11,7 +11,7 @@ const makePage = require('./make-page');
 const elfLog = require('isit-code-calvertbc').elfLog('private-walker');
 const moment = require('moment');
 
-function walker() {/home/bcuser/Git/isit320-calvert-2017/Week04-NpmProject
+function walker() {
     'use strict';
     elfLog.setLevel(elfLog.logLevelInfo);
 }
